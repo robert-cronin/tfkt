@@ -1,0 +1,33 @@
+def pomConfig = {
+    licenses {
+        license {
+            name "Apache-2.0"
+            url "https://opensource.org/licenses/Apache-2.0"
+            distribution "repo"
+        }
+    }
+    developers {
+        developer {
+            id "rcronin"
+            name "Robert Cronin"
+            organization "FortyTwoApps"
+            organizationUrl "https://www.linkedin.com/in/robbiecronin/"
+        }
+    }
+
+    scm {
+        url "https://github.com/fortytwoapps/tfkt.git"
+    }
+}
+
+def withPom = { pom ->
+    pom.withXml {
+        def root = asNode()
+        root.appendNode('name', project.name)
+        root.appendNode('description', 'Class based ML code in the Browser - A KotlinJS wrapper for the wonderful TensorFlow.js library.\n')
+        root.appendNode('url', 'https://github.com/fortytwoapps/tfkt')
+        root.children().last() + pomConfig
+    }
+}
+
+ext.withPom = withPom

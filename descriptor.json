@@ -1,0 +1,27 @@
+{
+  "package": {
+    "name": "tfkt",
+    "repo": "fortytwoapps",
+    "subject": "robert-cronin",
+    "desc": "Class based ML code in the Browser - A KotlinJS wrapper for the wonderful TensorFlow.js library.\n",
+    "website_url": "https://github.com/fortytwoapps/tfkt",
+    "issue_tracker_url": "https://github.com/fortytwoapps/tfkt/issues",
+    "vcs_url": "https://github.com/fortytwoapps/tfkt.git",
+    "licenses": ["Apache-2.0"],
+    "labels": ["tensorflow", ,"kotlin", "bintray", "gradle"],
+    "public_download_numbers": false,
+    "public_stats": false
+  },
+
+  "version": {
+    "name": "1.5.1",
+    "released": "2020-01-23",
+    "gpgSign": false
+  },
+
+  "files":
+  [
+    {"includePattern": "build/libs/(.*)", "uploadPattern": "fortytwoapps/tfkt/1.5.1/$1"}
+  ],
+  "publish": true
+}
