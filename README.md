@@ -24,7 +24,7 @@ repositories {
 }
 
 dependencies {
-    implementation "fortytwoapps:TensorFlow-kt:0.0.1"
+    implementation "fortytwoapps:tfkt:0.0.1"
 }
 ```
 
