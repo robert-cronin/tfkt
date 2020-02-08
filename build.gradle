@@ -83,4 +83,3 @@ task copyResourcesForTests(type: Copy) {
     into file(buildDir.path + "/js-tests/")
 }
 
-}
