@@ -24,7 +24,7 @@ repositories {
 }
 
 dependencies {
-    implementation "fortytwoapps:tfkt:0.0.1"
+    implementation "fortytwoapps:tfkt:1.5.1"
 }
 ```
 

@@ -13,5 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+@file:JsModule("@tensorflow/tfjs")
+@file:JsNonModule
 
-package com.fortytwoapps.kstitch.util
+package com.fortytwoapps.tfkt.models
+
+import kotlin.js.Promise
+
+// Creation

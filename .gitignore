@@ -19,3 +19,4 @@ gradle-app.setting
 
 karma.config.d/*
 src/main/web
+src/main/kotlin/com/fortytwoapps/tfkt/main.kt
