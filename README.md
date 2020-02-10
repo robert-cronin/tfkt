@@ -33,12 +33,14 @@ dependencies {
 To start using TensorFlow-kt in your project, simply import like this:
 
 ```kotlin
-import com.fortytwoapps.tfkt.*
+import com.fortytwoapps.tfkt.tensors.*
 ```
+
+Note: only tensors are available so far, methods for the rest of the library will be added soon.
 
 ## Built With
 
-* [stitch-js-sdk](https://github.com/tensorflow/tfjs) - The underlying JavaScript library used
+* [TensorFlow.js](https://github.com/tensorflow/tfjs) - The underlying JavaScript library used
 * [Travis CI](https://travis-ci.org/) - Continuous Integration
 * [Gradle](https://gradle.org/) - Dependency Management
 
