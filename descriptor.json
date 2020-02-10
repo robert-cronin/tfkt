@@ -3,7 +3,7 @@
     "name": "tfkt",
     "repo": "fortytwoapps",
     "subject": "robert-cronin",
-    "desc": "Class based ML code in the Browser - A KotlinJS wrapper for the wonderful TensorFlow.js library.\n",
+    "desc": "Class based ML code in the Browser - A KotlinJS wrapper for the wonderful TensorFlow.js library.",
     "website_url": "https://github.com/fortytwoapps/tfkt",
     "issue_tracker_url": "https://github.com/fortytwoapps/tfkt/issues",
     "vcs_url": "https://github.com/fortytwoapps/tfkt.git",
@@ -15,7 +15,7 @@
 
   "version": {
     "name": "1.5.1",
-    "released": "2020-01-23",
+    "released": "2020-02-10",
     "gpgSign": false
   },
 
