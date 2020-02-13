@@ -20,3 +20,23 @@ import com.fortytwoapps.tfkt.tensors.Tensor
 import kotlin.js.Console
 
 external fun require(name: String): dynamic
+
+// Useful inline function for creating js objects
+inline fun jsObject(init: dynamic.() -> Unit): dynamic {
+    val obj = js("{}")
+    init(obj)
+    return obj
+}
+
+//enum class DataType(val stringValue: String) {
+//    FLOAT32("float32"),
+//    INT32("int32"),
+//    BOOL("bool"),
+//    COMPLEX64("complex64"),
+//    STRING("string")
+//}
+//fun Tensor.asType(dtype: DataType) = fun():Tensor {
+//    return this.asDynamic().asType(dtype.stringValue) as Tensor
+//}
+
+//inline fun <reified T> a(vararg items: T): Array<T> = arrayOf<T>(*items)
